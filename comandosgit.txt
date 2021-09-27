@@ -1,21 +1,36 @@
+#Configurar git
 git config user.name
 git config user.email
 git config core.editor
 
+#iniciar projeto no git
 git init
 
+#consultar o status dos arquivos
 git status
 
+#Adicionar caso haja alterações na branch
 git add -A
 
+#Commita as alterações na branch
 git commit -m "comentario"
 
+#Mostra os commits da branch
 git log : consultar os commits
 
+#Volta para o commit desejado dentro da branch
+git reset --soft ou --hard : desfaz asterações na branch
+          
+#Consultas das branchs
 git branch : consultar as branchs
-
 git branch teste : criar nova branch
 
+#Entrar nas branchs
+git checkout nomeDaBranch : Escolhe uma branch para trabalhar
+git checkout nomeDaBranch ou HEAD -- nomeDoArquivoComExtensao : Desfaz as alterações  no arquivo específico
+
+#Detalhamento das alterações feitas nas branchs
 git diff : Mostra detalhadamente as modificações na branch
 git diff --name-only : Mostra apenas o nome dos arquivos modificados
 git diff nomeDoArquivoComExtensao : Mostra os detalhes do arquivo escolhido
+
