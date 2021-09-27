@@ -25,6 +25,11 @@ git reset --soft ou --hard : desfaz asterações na branch
 git branch : consultar as branchs
 git branch teste : criar nova branch
 
+#Delete branch
+git branch -d <nomeBranch> : local
+git branch -D <nomeBranch> quando não está em repositório remoto
+git push origin --delete remoteBranchName : remoto
+
 #Entrar nas branchs
 git checkout nomeDaBranch : Escolhe uma branch para trabalhar
 git checkout nomeDaBranch ou HEAD -- nomeDoArquivoComExtensao : Desfaz as alterações  no arquivo específico
