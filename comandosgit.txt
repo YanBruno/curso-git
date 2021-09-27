@@ -1,0 +1,16 @@
+git config user.name
+git config user.email
+git config core.editor
+
+git init
+
+git status
+
+git add -A
+
+git commit -am "comentario"
+
+git log
+
+git branch
+
