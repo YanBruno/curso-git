@@ -34,3 +34,5 @@ git diff : Mostra detalhadamente as modificações na branch
 git diff --name-only : Mostra apenas o nome dos arquivos modificados
 git diff nomeDoArquivoComExtensao : Mostra os detalhes do arquivo escolhido
 
+#Repositório remoto (Github)
+git remote add origin https://github.com/YanBruno/curso-git.git : junta o repositório local ao remoto
