@@ -36,3 +36,7 @@ git diff nomeDoArquivoComExtensao : Mostra os detalhes do arquivo escolhido
 
 #Repositório remoto (Github)
 git remote add origin https://github.com/YanBruno/curso-git.git : junta o repositório local ao remoto
+git remote -v : Mostra os detalhes dos repositórios
+            (fetch) do remoto para o local
+            (push) do meu local para o remoto
+git push -u <nomeDoRemote> <nomeDaBranch> : envia para o remoto
