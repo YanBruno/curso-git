@@ -1,0 +1,8 @@
+# Ignorar qualquer arquivo que contenha a extensão .sql
+*.sql
+
+# ignorar qualquer arquivo que contenha secret
+secret*
+
+#ignorar pasta e arquivos internos
+node_modules 
