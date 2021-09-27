@@ -8,9 +8,10 @@ git status
 
 git add -A
 
-git commit -am "comentario"
+git commit -m "comentario"
 
-git log
+consultar os commits: git log
 
-git branch
+consultar as branchs: git branch
 
+criar nova branch: git branch teste
