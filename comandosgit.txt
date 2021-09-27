@@ -10,10 +10,12 @@ git add -A
 
 git commit -m "comentario"
 
-git log: consultar os commits
+git log : consultar os commits
 
-git branch: consultar as branchs
+git branch : consultar as branchs
 
-git branch teste: criar nova branch
+git branch teste : criar nova branch
 
-git diff: Mostra detalhadamente as modificações na branch
+git diff : Mostra detalhadamente as modificações na branch
+git diff --name-only : Mostra apenas o nome dos arquivos modificados
+git diff nomeDoArquivoComExtensao : Mostra os detalhes do arquivo escolhido
